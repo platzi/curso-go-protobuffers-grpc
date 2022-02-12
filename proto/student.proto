@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package student;
+
+option go_package = "platzi.com/go/grpc;studentpb";
+
+message Student {
+  string id = 1;
+  string name = 2;
+  int32 age = 3;
+}
